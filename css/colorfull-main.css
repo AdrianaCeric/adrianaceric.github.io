@@ -1,0 +1,63 @@
+.count-icon img {
+    width: 45px;
+  }
+  
+  .projects-item {
+    box-shadow: 3px 3px 8px 8px rgba(145, 145, 145, 0.1) !important;
+  }
+  
+  .projects-item img {
+    width: 50px;
+  }
+  
+  .projects-item .text-muted {
+    color: #5f5f5f !important;
+  }
+  
+  .projects-item .text-dark {
+    color: #3c3c3c !important;
+  }
+  
+  .projects-item .projects-content {
+    padding-left: 4rem !important;
+    padding-right: 1rem;
+  }
+  
+  .timeline-items .timeline-border {
+    border-left: 2px solid;
+  }
+  
+  .timeline-items .timeline-item:before {
+    display: none !important;
+  }
+  
+  .timeline-items .timeline-icon {
+    border: none;
+    left: -9px !important;
+  }
+  
+  .portfolio .portfolio-item-content::before {
+    background-color: rgba(255, 66, 116, 0.8);
+  }
+  
+  .portfolio .portfolio-icon button {
+    background-color: #1ab394;
+    color: #fafafa;
+  }
+  
+  .portfolio .portfolio-icon a {
+    background-color: #f7d650;
+    color: #fafafa;
+  }
+  
+  .newsletters-link a {
+    color: #1ab394 !important;
+  }
+  
+  .newsletters-link a:hover {
+    color: #0c9b7e !important;
+  }
+  
+  .hero-06 .hero-social a i:hover {
+    color: #1b63ad;
+  }
