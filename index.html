@@ -1,413 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-    
-<head>
-        <!--  Meta Data  -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Adriana Ceric │ Portfolio</title>
-        <meta name="description" content="Hey, I'm Adriana Ceric and this is my personal site where you can find out what I'm up to!" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="Adriana Ceric" />
-	<meta name="google-site-verification" content="wHw9SEOHhw7uGAnlyr_2qqnPrxIAm4rGpCg7-3oE4CE" />
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://adrianaceric.github.io/"/>
+  <meta property="og:url" content="Adriana Ceric │ Portfolio"/>
+  <meta property="og:description" content="Welcome to Adriana Ceric's website!"/>
+  <meta property="og:image" content="img/alh.jpg"/>
+
+  <meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:creator" content="@adriana_ceric" />
+<meta property="twitter:title" content="Adriana Ceric Website" />
+<meta property="twitter:description" content="Hey, I’m Adriana! 👋 I’m a urban tech geek, and incoming student at the University of Waterloo (she/her). My “resumé” curiosities include startups, crypto, fintech, diversity/equity/inclusion, and product. Beyond work, though, I’ve been reflecting on my wellness/happiness, privilege, solitude, and what it means to be successful. Welcome to my corner of the internet :)" />
+<meta property="twitter:image" content="img/alh.jpg"/>
 
 
-        <!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+<!--Gilroy font import-->
+<link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="styles.css" title="Adriana Ceric" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+<link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo:700&display=swap" rel="stylesheet">
+<title>Adriana Ceric</title>
+  
+</head>
+<body><header class="site-header" role="banner">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/rsz_water.png">
-        <!-- Plugin Css -->
-        <link rel="stylesheet" href="css/plugins.css">
-        <!-- Colors Css -->
-        <link rel="stylesheet" href="css/green-color.css" id="option-color">
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/7149a0390b.js" crossorigin="anonymous"></script>
-        <!--  Custom Style CSS  -->
-        <link rel="stylesheet" href="css/main.css">
-        <!--  Colorfull Style CSS  -->
-        <link rel="stylesheet" href="css/colorfull-main.css">
-        <!-- MailerLite Universal -->
-        
+  <div class="wrapper"><a class="site-title" rel="author" href="index.html">Adriana Ceric</a>
+    <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+        </label>
 
-    </head>
-    <body data-spy="scroll" data-target="#scrollspy" data-offset="70">
-
-    <!--  Pre Loader  -->
-    <div id="overlayer"></div>
-    <span class="loader"></span>
-
-    <!--    Header Start    -->
-    <header id="header" class="header fixed-top">
-        <nav id="scrollspy" class="navbar navbar-expand-lg header-nav">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#hero"><img href="img/Debug.png"></a>
-                <!--  Navbar Toggler Button Start -->
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#toggle-menu" aria-controls="toggle-menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span><i class="fas fa-bars"></i></span>
-                </button>
-                <!--  Navbar Toggler Button End -->
-                <div class="collapse navbar-collapse" id="toggle-menu">
-                    <ul class="navbar-nav nav-pills ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#hero">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>-->
-                    </ul>
-                    <ul class="list-inline socails mt-4  d-lg-none">
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/adriana-ceric/"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li class="list-inline-item"><a href="mailto: adriana.ceric@gmail.com"><i class="far fa-envelope"></i></a></li>
-                        <li class="list-inline-item"><a href="https://anchor.fm/from-the-stem-up"><i class="fas fa-podcast"></i></a></li>
-                        <li class="list-inline-item"><a href="https://medium.com/@adrianaceric"><i class="fa fa-medium"></i></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/AdrianaCeric"><i class="fa fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    
-     <!-- Social -->
-     <div class="social-box">
-        <div class="follow-label">
-            <span>Where to find me <span id="arrows">>>></span></span>
+        <div class="trigger">
+          <a class="page-link nav-link" href="portfolio.html">Portfolio</a>
+          <a class="page-link nav-link" href="/blog/">Blog</a>
         </div>
-        <div class="social">
-            <a href="https://www.linkedin.com/in/adriana-ceric/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto: adriana.ceric@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
-            <a href="https://anchor.fm/from-the-stem-up" target="_blank"><i class="fas fa-podcast"></i></a>
-            <a href="https://medium.com/@adrianaceric" target="_blank"><i class="fab fa-medium"></i></a>
-            <a href="https://twitter.com/AdrianaCeric" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-    </div>
+    </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home">
+  
+    <h2 id="hey-im-kristie-">Hey, I’m Adriana! 👋</h2>
+<p>I’m a transportation/urban tech nerd, and incoming <a href="https://uwaterloo.ca/future-students/programs/civil-engineering">Honours Civil engineering student at the University of Waterloo</a> with co-op. (she/her).</p>
 
-     <!--  Beginning Start  -->
-     <section id="hero" class="section hero hero-03 full-screen p-0">
-        <div class="hero-content">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-6 order-2 order-lg-1">
-                        <div class="hero-item">
-                            <h1 class="dark-color mb-3">Hey! I'm <span class="base-color"> Adriana Ceric.</span></h1>
-                            <h4 class="text-darktext-capitalize mb-0"><span class="element" data-elements="A podcast host., A creative., A learner."></span></h4>                            <div class="button-border mt-2">
-                                <!--<a href="#portfolio" class="pill-button">See Portfolio</a>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-1 order-lg-2">
-                        <div class="hero-image">
-                            <div class="square">
-                                <img src="img/rsz_water.png" alt="/">
-                            </div>
-                            <div class="circle"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                            <div class="floating"></div>
-                            <div class="personal-image rounded-circle">
-                                <img src="img/Standing.jpg" alt="/" class="rounded-circle img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-    <!--  Beginning End  -->
+<p>Welcome my city block of the internet :)</p>
 
+<img src="img/alh.jpg">
+<br><br>
 
+<p style="font-size: 15px;">(Above) I love to travel to explore new structures and cities. 🌍 This is me wandering through the mystical halls of the Alhambra in Granada, Spain.</p>
 
-    <!--   About Start   -->
-    <section id="about" class="section py-5">
-        <div class="container">
-            <!--<div class="row">-->
-                <!--<div class="col-lg-6">-->
-                    <!--<div class="image-border">-->
-                        <!--<img src="img/about-05.jpg" alt="/" >-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-lg-6 mt-4 mt-lg-0">-->
-                    <div class="personal-item ">
-                        <h2 class="mb-0 base-color">About Me!</h2>
-                        <!--<h5 class="text-dark bold my-3">A lifelong learner.</h5>-->
-                        <h6>Hello!</h6>
-                        <h6> 
-                            I am a grade 12 student and aspiring engineer interested in the intersection of 
-                            <strong>human-centred design, urban development and technology</strong>.
-                            <br><br> 
-                            I believe that bringing together diverse perspectives is the key to solving the world's biggest issues. 
-                            That's why I leave no voice behind on my STEM-focused <strong>podcast</strong> and equally work towards <strong>promoting linguistic duality throughout Canada.</strong>
-                            <br><br>
-                            Throughout my involvements, I strive to learn at least one new thing or engage at least one more person every day.
-                        </h6>
-                        <br>
-                    </div>
-                    <div class=" button-border mono mt-3 mb-lg-0 mr-4">
-                        <a href="https://www.notion.so/731caee3b85a42a4a40219817cb7a0a1?v=9e1a7f71a25c4c949ad1aaaa26bd1260" target="_blank" class=" pill-button"><span id="button-text">My Book Shelf 📚</span></a>
-                    </div>
-                    <br><br><br>
-                    <div class="container">
-                        <img style="width:100%;" src="img/skyline-removebg-preview.png">
-                    </div>
-                    
-            <!--</div>-->
-        </div>
-    </section>
-    <!--    About End    -->
+<p class="highlight err">My current interests include micromobility, mixed used developement and mass timber. I'm looking to work in the transportation technology sector to contribute to making our cities sustainable and accessible.</p>
 
-    
+<p>📐 <a href="/more-on-me">My Portfolio</a></p>
 
+<h3 id="currently">Currently:</h3>
+<ul>
+  <li>Reading so many interesting <a href="https://www.notion.so/731caee3b85a42a4a40219817cb7a0a1?v=9e1a7f71a25c4c949ad1aaaa26bd1260" target="_blank">books</a>.</li>
+  <li>Talking to cool youth worldwide on my <a href="https://fromthestemup.media/" target="_blank">podcast 🎙️</a>. So, far I've intereviewed over 30 youth individuals on topics ranging from inequities and opportunities in STEM field during the pandemic. I think more women voices like myself should be featured in the audio world. Check out my scholarship-winning blog post about this <a href="https://adrianaceric.medium.com/robot-vs-human-voice-and-consumer-behaviour-d6b84834f3a8" target="_blank">here.</a></li>
+  <li>Finishing up my last year of high school :(</li>
+  <li>Volunteering at <a href="https://www.urbanminds.co/" target="_blank">Urban Minds</a>.</li>
+  <li>Building Settlegration, an app 📱 that helps Canadian newcomers settle more smoothly in Canada through volunteer-based services. My team recently recieved $5k seed funding from the <a href="https://cont.st/QcCAg_usInTVQ?g=1">Student Life Network</a>.</li>
+  <li>Learning code + design at <a href="https://devpost.com/adrianaceric?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">hackathons</a>.</li>
+</ul>
 
+<img src="img/woah.jpg">
+<br><br>
 
-    <!-- Portfolio Start -->
-    <section id="portfolio" class="section portfolio py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-content mb-4">
-                        <h2 class="base-color">My Work</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!--   Portfolio Filters   -->
-                <ul id="portfolio-filter" class="list-unstyled list-inline mb-0 col-lg-12 portfolio-filter">
-                    <li class="button-border list-inline-item">
-                        <a href="#" data-filter="*" id="button-text" class="pill-button">All</a>
-                    </li>
-                    <li class="button-border list-inline-item">
-                        <a href="#" data-filter=".ui-ux" id="button-text" class="pill-button">Design</a>
-                    </li>
-                    <li class="button-border list-inline-item">
-                        <a href="#" data-filter=".software" id="button-text" class="pill-button">Software</a>
-                    </li>
-                    <li class="button-border list-inline-item">
-                        <a href="#" data-filter=".entrepreneurship" id="button-text" class="pill-button">Entrepreneurship</a>
-                    </li>
-                    <li class="button-border list-inline-item">
-                        <a href="#" data-filter=".project-management" id="button-text" class="pill-button">Project Management</a>
-                    </li>
-                    <li class="button-border list-inline-item">
-                        <a href="#" data-filter=".speaking" id="button-text" class="pill-button">Speaking</a>
-                    </li>
-                </ul>
-            </div>
-            
-            <div class="portfolio-items row">
-                <div class="col-lg-4  portfolio-item ui-ux software entrepreneurship project-management">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/Debug.png" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                    <div class="portfolio-icon">
-                                        <a href="https://devpost.com/software/debug-d5cypg" target="_blank"><i class="fas fa-link"></i></a>
-                                    </div>
-                                    <h5 class="mt-3 mb-0">Debug</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<p>Check out my speaking engagements and features:</p>
 
+<p>View more of my work on my <a href="https://www.linkedin.com/in/adriana-ceric/" target="_blank">LinkedIn</a>.</p>
 
-                <div class="col-lg-4 portfolio-item ui-ux">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/mindly.png" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                <div class="portfolio-icon">
-                                        <a href="casestudy.html" target="_blank"><i class="fas fa-link"></i></a>
-                                </div>
-                                <h5 class="mt-3 mb-0">Mindly Website/App</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 portfolio-item ui-ux project-management">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/growww.png" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                <div class="portfolio-icon">
-                                        <a href="https://devpost.com/software/growww" target="_blank"><i class="fas fa-link"></i></a>
-                                </div>
-                                <h5 class="mt-3 mb-0">Growww App</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 portfolio-item ui-ux software entrepreneurship speaking">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/green-mockup.PNG" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                <div class="portfolio-icon">
-                                        <a href="https://devpost.com/software/wastenot" target="_blank"><i class="fas fa-link"></i></a>
-                                </div>
-                                <h5 class="mt-3 mb-0">WasteNot App</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 portfolio-item speaking project-management">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/Cover.png" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                <div class="portfolio-icon">
-                                        <a href="https://www.youtube.com/playlist?list=PLK6X5mdE6UEc_YfLjkYAbwXVNOF6V9xLl" target="_blank" ><i class="fas fa-link"></i></a>
-                                </div>
-                                <h5 class="mt-3 mb-0">Close The Gap Webinar Series</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 portfolio-item ui-ux software entrepreneurship speaking">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/Settle_Banner.png" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                <div class="portfolio-icon">
-                                        <a href="https://youtu.be/TflJ4AIIXjA" target="_blank"><i class="fas fa-link"></i></a>
-                                </div>
-                                <h5 class="mt-3 mb-0">Settlegration App</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 portfolio-item ui-ux software entrepreneurship">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/Dyslexia.png" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                <div class="portfolio-icon">
-                                        <a href="https://devpost.com/software/dislexislash?ref_content=user-portfolio&ref_feature=in_progress" target="_blank"><i class="fas fa-link"></i></a>
-                                </div>
-                                <h5 class="mt-3 mb-0">DyslexiSLASH Mobile App</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 portfolio-item design software entrepreneurship">
-                    <div class="image-border">
-                        <div class="portfolio-item-content">
-                            <img src="img/CarbonEX.png" alt="/" class="img-fluid">
-                            <div class="img-overlay text-center">
-                                <div class="img-overlay-content">
-                                <div class="portfolio-icon">
-                                        <a href="https://devpost.com/software/carbonex-1r0wkj" target="_blank"><i class="fas fa-link"></i></a>
-                                </div>
-                                <h5 class="mt-3 mb-0">Carbon EX Web App</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-            
-    <!--  Portfolio End  -->
-
-     <!-- Contact Start -->
-     <!--<section id="contact" class="section contact py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 mt-5 contact-form">
-                    <form id="contactForm" action="mailto:real.ewu4@gmail.com"
-                    method="POST"
-                    enctype="multipart/form-data"
-                    name="EmailForm">
-                        <div class="row">
-                            <div class="col-lg-6 form-item">
-                                <div class="form-group">
-                                    <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required >
-                                </div>
-                            </div>
-                            <div class="col-lg-6 form-item">
-                                <div class="form-group">
-                                    <input name="email" id="email" type="email" class="form-control" placeholder="Your Email*" required >
-                                </div>
-                            </div>
-                            <div class="col-12 form-item">
-                                <div class="form-group">
-                                    <input name="subject" id="subject" type="text" class="form-control" placeholder="Your Subject*" required >
-                                </div>
-                            </div>
-                            <div class="col-12 form-item">
-                                <div class="form-group">
-                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 mt-4 text-left">
-                                <div class="button-border">
-                                    <a href="javascript:void(0)" class="pill-button" id="submit-btn" onclick="sendEmail()">Send Message</a>
-                                </div>
-                                <div id="message" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000" >
-                                    <div class="toast-body d-inline-block"></div>
-                                    <button type="button" class="pr-3 close" data-dismiss="toast" aria-label="Close">
-                                        <span aria-hidden="true" class="lni-close size-xs "></span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            </div>
-        </div>
-    </section> -->
-    <!--  Contact End  -->
-    <!--<footer id="footer" class="header fixed-bottom row">
-        <div class="col-lg-12">
-            <!--<div class="title-content mb-4">
-                    <p class="mb-0">Feel free to contact me by email or LinkedIn!</p>
-                    <h2 class="base-color">Message Me!</h2>
-                    <p>
-                        My contact sheet is currently down but feel free to send me an email at <span style=color:#1ab394;text-decoration:underline;>real.ewu4@gmail.com</span>.
-                    </p>-->
-                <!--<div class="button-border mt-3 mb-lg-0 mr-4">
-                    <a href="mailto:adrianaceric.gmail.com" target="_blank" class="pill-button">Email Me!</a>
-                </div>
-            </div>
-        </div>
-    </footer>-->
-
-    <!--  JavaScripts  -->
-    <script data-cfasync="false" src="email-decode.min.js"></script><script src="js/jquery-3.4.1.min.js"></script>
-    <!--  Plugin Js  -->
-    <script src="js/plugins.js"></script>
-    <!--  Custom JS  -->
-    <script src="js/website.js"></script>
-
-    </body>
+<p>Otherwise, check out my tech toolbox on <a href="https://github.com/AdrianaCeric">Github</a> or my weekly thoughts on <a href="https://twitter.com/adriana_ceric">Twitter</a>.</p>
+<br>
+<p>Here’s my <a href="#">résumé</a>.</p>
+<br><br>
+</main>
+</body>
 </html>
