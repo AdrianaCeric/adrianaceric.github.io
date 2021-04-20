@@ -102,11 +102,13 @@ body {
     transition: all 0.3s ease;
     font-size: 16px;
     display: inline-block;
+    text-decoration: none;
   }
   
   .pill-button:hover, .pill-button.active {
     border: none;
     box-shadow: inset 3px 3px 3px #dadada, inset -3px -3px 3px #fafafa;
+    text-decoration: none;
   }
   
   .image-border {
@@ -2102,6 +2104,11 @@ body {
   /* My stuff*/
   mark{
     background-color:#c0ffc8;
+   }
+
+   #button-text {
+    color: #ff4274;
+    font-weight: 1000;
    }
 
   
