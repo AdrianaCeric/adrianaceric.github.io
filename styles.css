@@ -144,7 +144,7 @@ table td { border: 1px solid #e8e8e8; }
 @media screen and (max-width: 600px) { 
   .site-nav { 
     position: absolute; 
-    top: 9px; 
+    top: -70px; 
     right: 15px; 
     background-color: none; 
     border: none;
