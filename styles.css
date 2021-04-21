@@ -14,14 +14,14 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /** Basic styling */
 body {
     font:18px 'Gilroy', sans-serif;
-    font-weight: 450;
-    line-height: 27px;
+    font-weight: 400;
+    line-height: 30px;
     background-color: rgb(241, 240, 250);
 }
 
@@ -126,7 +126,7 @@ table td { border: 1px solid #e8e8e8; }
   margin: 100px 0 0;
 }
 
-.site-title { font-size: 50px; font-weight: 300; 
+.site-title { font-size: 40px; font-weight: 300; 
   line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; border-bottom: none;}
 
 .site-title, .site-title:link, .site-title:visited { color: #424242; }
