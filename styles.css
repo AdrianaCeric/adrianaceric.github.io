@@ -14,15 +14,15 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /** Basic styling */
 body {
-    font:18px 'Gilroy', sans-serif;
+    font:17px 'Gilroy', sans-serif;
     font-weight: 400;
-    line-height: 30px;
-    background-color: rgb(241, 240, 250);
+    line-height: 28px;
+    background-color: #fafafa;
 }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
