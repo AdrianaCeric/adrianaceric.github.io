@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
 /** Images */
-img { max-width: 100%; vertical-align: middle; border-radius: 20px; border-color: #000; border-width: 3px;}
+img { max-width: 100%; vertical-align: middle; border-radius: 10px; border-color: #000; border-width: 3px;}
 
 /** Figures */
 figure > img { display: block; }
@@ -92,13 +92,13 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); 
   margin-right: auto; margin-left: auto; 
-  padding-right: 30px; padding-left: 30px; }
+  padding-right: 25px; padding-left: 25px; }
 
 @media screen and (max-width: 800px) { 
   .wrapper { 
     max-width: -webkit-calc(800px - (100px)); 
     max-width: calc(800px - (100px)); 
-    padding-right: 50px; padding-left: 50px; } }
+    padding-right: 25px; padding-left: 25px; } }
 
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
@@ -121,7 +121,7 @@ table td { border: 1px solid #e8e8e8; }
 
 /** Site header */
 .site-header { 
-  min-height: 80px; 
+  min-height: 60px; 
   position: relative; 
   margin: 100px 0 0;
 }
@@ -202,7 +202,7 @@ table td { border: 1px solid #e8e8e8; }
   }
   
   :root {
-    --background: rgb(253, 253, 255);
+    --background: #fafafa;
     --green: #c2f7a8;
     --purple: #7a0ed3;
     --black: #000;
