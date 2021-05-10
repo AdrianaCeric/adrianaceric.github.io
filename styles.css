@@ -19,8 +19,9 @@ h3 {
 
 /** Basic styling */
 body {
-    font:17px 'Gilroy', sans-serif;
-    font-weight: 400;
+    font-family: 'Circular Std Book', sans-serif;
+    font-weight: 270;
+    font-size: 17px;
     line-height: 28px;
     background-color: #fafafa;
 }
@@ -224,7 +225,8 @@ table td { border: 1px solid #e8e8e8; }
   
   .card h2 {
     font-size: 14px;
-    font:18px 'Gilroy', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 17px;
     font-weight: 600;
   }
 
