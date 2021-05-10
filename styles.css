@@ -19,11 +19,16 @@ h3 {
 
 /** Basic styling */
 body {
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: Circular;
     font-weight: 270;
     font-size: 17px;
     line-height: 28px;
     background-color: #fafafa;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url(circular-book.otf)
 }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
@@ -225,7 +230,7 @@ table td { border: 1px solid #e8e8e8; }
   
   .card h2 {
     font-size: 14px;
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: Circular;
     font-size: 17px;
     font-weight: 600;
   }
