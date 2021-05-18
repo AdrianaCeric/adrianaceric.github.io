@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
 <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Archivo:700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/flexmasonry/dist/flexmasonry.css">
 
 <!--Favicon-->
 <link rel="shortcut icon" type="img/circle.png" href="img/circle.png"/>
@@ -42,7 +43,7 @@
   
     <h2 id="hey">What I'm up to:</h2>
 
-    <div class="flex-container">
+    <div class="grid">
       <div class="card">
         <p>
           technology
@@ -91,5 +92,31 @@
     </div>
     <br><br>
 </main>
+<script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
+<script>
+  FlexMasonry.init('.grid', {
+    /*
+     * If `responsive` is `true`, `breakpointCols` will be used to determine
+     * how many columns a grid should have at a given responsive breakpoint.
+     */
+    responsive: true,
+    /*
+     * A list of how many columns should be shown at different responsive
+     * breakpoints, defined by media queries.
+     */
+    breakpointCols: {
+        'min-width: 1500px': 1,
+        'min-width: 1200px': 1,
+        'min-width: 768px': 1,
+        'max-width: 600px': 1,
+    },
+    /*
+     * If `responsive` is `false`, this number of columns will always be shown,
+     * no matter the width of the screen.
+     */
+    numCols: 2,
+});
+
+</script>
 </body>
 </html>
