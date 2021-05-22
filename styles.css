@@ -265,6 +265,12 @@ table td { border: 1px solid #e8e8e8; }
     }
   }
 
+  .footer {
+    text-align: center;
+    color: #828282;
+    margin-bottom: 30px;
+  }
+
 
  
  
