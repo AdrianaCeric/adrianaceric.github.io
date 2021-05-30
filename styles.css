@@ -271,6 +271,14 @@ table td { border: 1px solid #e8e8e8; }
     margin-bottom: 30px;
   }
 
+  .player {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 505px;
+    width: 100%
+  }
+
 
  
  
